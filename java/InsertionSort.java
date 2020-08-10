@@ -22,7 +22,7 @@ public class InsertionSort{
     }
 
     System.out.println("");
-    insertionSort(array); //sort the array
+    insertionSort(array); 	//sort the array
 
     System.out.println("After insertion sort");
 
