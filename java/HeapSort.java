@@ -5,7 +5,7 @@ public class HeapSort{
       for(int i = n / 2 - 1; i >= 0; i--)
         heapify(array, n, i);
 
-      for (int i=n-1; i>0; i--){
+      for (int i = n - 1; i > 0; i--){
         int tmp = array[0];
         array[0] = array[i];
         array[i] = tmp;
@@ -37,17 +37,15 @@ public class HeapSort{
     int[] array = {9,3,2,14,5,6,8,9,32};
 
     System.out.println("Before heap sort");
-    for(int i: array){
+    for(int i: array)
       System.out.print(i + " ");
-    }
 
     System.out.println("");
     heapSort(array); 	// sort the array
 
     System.out.println("After heap sort");
 
-    for(int i:array){
+    for(int i:array)
       System.out.print(i + " ");
-    }
   }
 }
